@@ -1,12 +1,57 @@
-# React + Vite
+# React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação de quiz desenvolvida em React com o objetivo de praticar conceitos fundamentais da biblioteca, como componentização, estado, hooks e manipulação de eventos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Preview
 
-## Expanding the ESLint configuration
+![Preview do Quiz](./src/assets/preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Funcionalidades
+
+- Exibição de perguntas de múltipla escolha
+- Embaralhamento das alternativas a cada pergunta
+- Timer para cada pergunta
+- Exibição do resultado final
+- Interface simples e responsiva
+
+---
+
+## Tecnologias e conceitos utilizados
+
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+### Hooks utilizados
+- `useState`
+- `useRef`
+- `useCallback`
+
+---
+
+## Como executar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/senarthur/quiz-project
+```
+
+2. Acesse a pasta do projeto:
+```bash
+cd react-quiz-app
+```
+
+3. Instale as dependências
+```bash
+npm install
+```
+
+4. Execute a aplicação
+```bash
+npm start
+```
